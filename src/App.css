@@ -1,0 +1,18 @@
+
+
+.app-wrapper {
+	width: 1200px;
+	display: grid;
+	grid-template-columns:159px 1fr ;
+	grid-template-rows: 100px 1fr; 
+	grid-template-areas:
+	"header header"
+	"nav content";
+}
+
+
+
+.app-wrapper_content{
+	grid-area: content;
+	background-color: rgb(142, 211, 211);
+}
